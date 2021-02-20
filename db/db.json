@@ -13,5 +13,10 @@
         "title": "test02",
         "text": "test the post method",
         "id": "2"
+    },
+    {
+        "title": "test3",
+        "text": "lorem ipsum",
+        "id": "3"
     }
 ]
