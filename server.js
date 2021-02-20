@@ -1,6 +1,7 @@
 /* IMPORT MODULES */
 const express = require("express");
 const apiRoutes = require("./routes/apiRoutes");
+const htmlRoutes = require("./routes/htmlRoutes");
 
 
 /* GLOBALS & MIDDLEWARE */
@@ -14,20 +15,8 @@ app.use(express.json()); // parse json
 app.use(express.static("public"));
 
 app.use("/api", apiRoutes); // add /api before an apiRoute endpoint
-//app.use("/", htmlRoutes); // add / before an htmlRoute endpoint (default)
+app.use("/", htmlRoutes); // add / before an htmlRoute endpoint (default)
 
-
-/* ROUTING */
-// HTML ROUTES:
-// load the index
-app.get("/", (req, res) => {
-    res.sendFile(path.join(__dirname, "./public/index.html"));
-});
-
-// load the notes page
-app.get("/notes", (req, res) => {
-    res.sendFile(path.join(__dirname, "./public/notes.html"));
-});
 
 /* MAIN */
 app.listen(PORT, () => {
