@@ -5,11 +5,6 @@
         "text": "Test text"
     },
     {
-        "title": "test",
-        "text": "test",
-        "id": "1"
-    },
-    {
         "title": "test02",
         "text": "test the post method",
         "id": "2"
@@ -18,11 +13,6 @@
         "title": "test3",
         "text": "lorem ipsum",
         "id": "3"
-    },
-    {
-        "title": "test4",
-        "text": "Come on, how many of these are we making?\n\nI mean, seriously. 4",
-        "id": "4"
     },
     {
         "title": "Test005",
@@ -38,10 +28,5 @@
         "title": "test07",
         "text": "testing rewritten note adder",
         "id": "7f6379e7-ccd1-4559-963b-68fa71edcee5"
-    },
-    {
-        "id": "a70e498b-fced-4218-b410-fdbe50d93ddb",
-        "title": "test 08",
-        "text": "this is the final test to determine correctness\nI hope"
     }
 ]
