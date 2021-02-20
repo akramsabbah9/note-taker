@@ -1,6 +1,17 @@
 [
     {
+        "id": "0",
         "title": "Test Title",
         "text": "Test text"
+    },
+    {
+        "title": "test",
+        "text": "test",
+        "id": "1"
+    },
+    {
+        "title": "test02",
+        "text": "test the post method",
+        "id": "2"
     }
 ]
