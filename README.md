@@ -14,6 +14,8 @@ The Note Taker application can either be installed and run from your local machi
 
 ## Installation
 
+Make sure you have Node.js installed before running this application.
+
 To install and run Note Taker on your own machine:
 1. Clone this repository to your local machine.
 2. Navigate to the root directory of this project in your console.
